@@ -4,7 +4,6 @@ orbs:
 jobs:
   build-and-test:
     executor:
-      #Node option
       name: node/default
     steps:
       - checkout
